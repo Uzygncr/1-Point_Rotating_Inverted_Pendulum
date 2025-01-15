@@ -1,4 +1,4 @@
-# Install script for directory: /home/uzygncr/pico/pico-projects/Graduation_Project_assembled
+# Install script for directory: /home/uzygncr/pico/pico-projects/Raspberrypi_PicoW_1Point_Rotating_Inverted_Pendulum
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/uzygncr/pico/pico-projects/Graduation_Project_assembled/build/pico-sdk/cmake_install.cmake")
+  include("/home/uzygncr/pico/pico-projects/Raspberrypi_PicoW_1Point_Rotating_Inverted_Pendulum/build/pico-sdk/cmake_install.cmake")
 
 endif()
 
@@ -51,5 +51,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/uzygncr/pico/pico-projects/Graduation_Project_assembled/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/uzygncr/pico/pico-projects/Raspberrypi_PicoW_1Point_Rotating_Inverted_Pendulum/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
